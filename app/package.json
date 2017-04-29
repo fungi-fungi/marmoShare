@@ -1,0 +1,18 @@
+{
+  "name": "marmoShare",
+  "productName": "marmoShare",
+  "version": "0.0.1",
+  "description": "Electron app to share Marmoset models",
+  "main": "./main.js",
+  "author": {
+    "name": "Iurii Tverezovskyi",
+    "email": "psyfungus@gmail.com",
+    "url": "https://github.com/fungi-fungi"
+  },
+  "scripts": {
+    "postinstall": "npm rebuild --runtime=electron --target=1.6.1 --disturl=https://atom.io/download/atom-shell --build-from-source"
+  },
+  "license": "MIT",
+  "dependencies": {
+  }
+}
